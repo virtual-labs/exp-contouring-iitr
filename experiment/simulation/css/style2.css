@@ -1,0 +1,131 @@
+
+h3{
+
+position: absolute;
+margin-top: 15px;
+margin-left: 40px;
+color: #7c40ff;
+}
+#first,#second{
+
+float: left;
+}
+#graph{
+    margin-top: 50px;
+    margin-left: 400px;
+    height:550px;
+    width: 700px;
+    float: left;
+    }
+#third{
+margin-left: 300px;
+float: left;
+}
+
+#formula_box{
+
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    height:550px;
+    width: 300px;
+}
+#formula{
+
+    float: left;
+    height:550px;
+    width: 300px;
+}
+#buttton_div{
+    
+    border:2px solid black;
+    border-radius: 1px;
+    height: 600px;
+    width: 300px;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 100px;
+}
+#one_button{
+    
+    height: 40px;
+    width: 65px;
+    background-color: green;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+#one_button:hover{
+color: white;
+background-color: #0e6b0e;
+font-weight: bold;
+cursor: pointer;
+border-radius: 7px;
+}
+#two_button,#three_button,#four_button,#five_button,#six_button,#seven_button,#eight_button,#nine_button{
+
+margin-left: 10px;
+margin-top: 5px;
+height: 40px;
+width: 65px;
+background-color: green;
+color: whitesmoke;
+border: 2px solid black;
+border-radius: 7px;
+
+}
+#two_button:hover,#three_button:hover,#four_button:hover,#five_button:hover,#six_button:hover,#seven_button:hover,#eight_button:hover,#nine_button:hover{
+    color:white;
+    background-color: #0e6b0e;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+    
+    }
+    #home_button{
+        margin-top: 5px;
+        margin-left: 50px;
+        height: 40px;
+        width: 120px;
+        background-color: #009dff;
+        font-weight: bolder;
+        font-size: 20px;
+        color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 7px;
+
+
+    }
+    #home_button:hover{
+    color:white;
+    background-color: #1167b1 ;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+    
+    }
+    #reset_button{
+        margin-top: 5px;
+        margin-left: 20px;
+        height: 40px;
+        width: 120px;
+        background-color: #009dff;
+        font-weight: bolder;
+        font-size: 20px;
+        color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 7px;
+
+
+    }
+    #reset_button:hover{
+        color:white;
+    background-color: #1167b1 ;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+    
+    }
