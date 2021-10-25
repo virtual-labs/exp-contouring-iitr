@@ -1,0 +1,384 @@
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+/*header section template styling*/
+
+#header {
+    border-bottom: 8px solid #ff6600;
+    font-family: 'Raleway', sans-serif;
+    width: 1890px;
+    top: 0;
+    min-width: 500px;
+    background-color: #fff!important;
+}
+
+#header img {
+    padding: 8px 8px 4px 32px;
+}
+
+h2 {
+    font-size: large;
+}
+#steps{
+    margin-top: 20px;
+    font-size: 30px;
+}
+ol{
+    margin-left: 50px;
+    font-size: 20px;
+   
+
+}
+#labName {
+    float: right;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 40px;
+    color: #2C99CE;
+}
+
+#exp-name {
+    width: 1890px;
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    color: #2C99CE;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid #333;
+} 
+#body
+{
+    background-color: blue;
+}
+#main
+{
+background-image: url("../images/image.png");
+height: 600px;
+width: 1200px;
+}
+@media screen and (max-width: 1200px) {
+    div.example {
+      display: none;
+    }
+}
+#steps{
+    margin-top: 20px;
+    font-size: 30px;
+}
+ol{
+    margin-left: 50px;
+}
+#image1{
+    float: left;
+    margin-top: 160px;
+    margin-left: 490px;
+     height: 100px;
+    width: 50px;
+    position:absolute;
+    display: none;
+    cursor: pointer;
+}
+#scale1{
+    height:150px;
+    width:20px;
+    float:left;
+    position:absolute;
+}
+#image2{
+    float: left;
+    margin-top: 140px;
+    margin-left: 570px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    display: none;
+    cursor: pointer;
+}
+#scale2{
+    height:150px;
+    width:20px;
+    float:left;
+    position:absolute;
+}
+#image3{
+    float: left;
+    margin-top: 150px;
+    margin-left: 650px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    display: none;
+    cursor: pointer;
+}
+#scale3{
+    height:150px;
+    width:20px;
+    float:left;
+    position:absolute;
+}
+#image4{
+    float: left;
+    margin-top: 170px;
+    margin-left: 730px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    display: none;
+    cursor: pointer;
+}
+#scale4{
+    height:150px;
+    width:20px;
+    float:left;
+    position:absolute;
+}
+#image5{
+    
+    float: left;
+    margin-top: 200px;
+    margin-left: 810px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    display: none;
+    cursor: pointer;
+  
+}
+#scale5{
+    height:150px;
+    width:20px;
+    float:left;
+    position:absolute;
+    padding-bottom:200px;
+}
+#image6{
+    
+    float: left;
+    margin-top: 200px;
+    margin-left: 890px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    display: none;
+    cursor: pointer;
+  
+}
+#scale6{
+    height:150px;
+    width:20px;
+    float:left;
+    position:absolute;
+    padding-bottom:200px;
+}
+
+#field{
+    position: relative;
+}
+#field-div1
+{
+    margin-top: 230px;
+    margin-left: 490px;
+    float: left;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    cursor: pointer;
+}
+
+#field-div2
+{
+    float: left;
+    margin-top: 230px;
+    margin-left: 570px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    cursor: pointer;
+}
+#field-div3
+{
+    float: left;
+    margin-top: 220px;
+    margin-left: 650px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    cursor: pointer;
+}
+#field-div4
+{
+    float: left;
+    margin-top: 235px;
+    margin-left: 730px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    cursor: pointer;
+}
+#field-div5
+{
+    float: left;
+    margin-top: 250px;
+    margin-left: 810px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    cursor: pointer;
+  
+}
+#field-div6
+{
+    float: left;
+    margin-top: 270px;
+    margin-left: 890px;
+    height: 80px;
+    width: 25px;
+    position:absolute;
+    cursor: pointer;
+}
+
+#lineobj1img
+{
+    width: 90px;
+    height: 100px;
+    margin-top: 27px;
+    margin-left:5px;
+    float:left;
+    display: none;
+    position:absolute;
+}
+#lineobj2img
+{
+    width: 60px;
+    height: 150px;
+    float:left;
+    display: none;
+    position:absolute;
+    margin-left:37px;
+    
+}
+#lineobj3img
+{
+    width:60px;
+    height:100px;
+    margin-top: 10px;
+    float:left;
+    display: none;
+    position:absolute;
+    margin-left: 45px;
+    
+}
+
+#lineobj4img
+{
+    width: 60px;
+    height: 120px;
+    margin-top: 17px;
+    float:left;
+    display: none;
+    position:absolute;
+    margin-left: 47px;
+    
+}
+#lineobj5img
+{
+    width: 90px;
+    height: 100px;
+    margin-top: 25px;
+    float:left;
+    display: none;
+    position:absolute;
+    margin-left: 39px;
+   
+}
+#lineobj6img
+{
+    width: 90px;
+    height: 100px;
+    margin-top: 33px;
+    float:left;
+    display: none;
+    position:absolute;
+    margin-left: 45px;
+   
+}
+#refimg{
+    margin-top:110px;
+    margin-left:70px;
+    float:left;
+    height:15px;
+    width:10px;
+    position:absolute;
+}
+#refdot{
+    margin-top:90px;
+    margin-left:70px;
+    height:10px;
+    width:5px;
+    float:left;
+    position:absolute;
+}
+#drawobjimg
+{
+    margin-top:100px;
+    margin-left:80px;
+    height: 50px;
+    width: 70px;
+    position:absolute;
+}
+#sheet
+{
+    margin-top: 345px;
+    margin-left: 575px;
+    margin-bottom: 0px;
+    float: left;
+    height: 160px;
+    width:140px;
+    background-color:#DEDEDE;
+    transform: perspective(750px)scaleZ(2)rotateX(70deg);
+    opacity:0.9;
+    border: 1px 1px 5px 5px solid ;
+    border-color: #B7410E ;
+    position:absolute;
+}
+#tripodimg
+{
+    float: left;
+    position: absolute;
+    margin-top: 460px;
+    height: 135px;
+    width: 150px;
+    margin-left: 570px;
+}
+#tripodnextimg
+{
+    float: left;
+    position: absolute;
+    margin-top: 400px;
+    height: 170px;
+    width: 70px;
+    margin-left: 730px;
+}
+
+
+#reset{
+    height:120px;
+    width:120px;
+    margin-top:370px;
+    margin-left: 50px;
+    position:absolute;
+    cursor: pointer;
+    
+}
+#result{
+    height:120px;
+    width:120px;
+    margin-top: 400px;
+    margin-left: 1050px;
+    position:absolute;
+    cursor: pointer;
+    display: none;
+}
