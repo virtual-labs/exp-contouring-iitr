@@ -16,6 +16,7 @@ float: left;
     height:550px;
     width: 700px;
     float: left;
+    border:2px solid black;
     }
 #third{
 margin-left: 300px;
