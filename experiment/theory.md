@@ -24,7 +24,7 @@ This experiment is useful to carry out contouring in the field.<br><br>
 4) Always draw the contours in the field (when there are sufficient numbers of spot levels) as it is easy to bring out the correct shape of the contours in front of the terrain.<br>
 5) Use interpolation method to draw all the contours as per desired contour interval.<br><br>
 
-#### Don'ts<br>
+#### Don'ts:<br>
 1) Do not take either very large number or very small number of spot levels, as contouring is always done by interpolation.<br>
 2) Do not draw the contours with sharp spikes and turnings; instead draw them by smooth curve.<br>
 3) Do not select two different contour intervals for one single area to be surveyed.<br>

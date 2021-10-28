@@ -386,3 +386,36 @@ ol{
     cursor: pointer;
     display: none;
 }
+#ins{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 35px;
+    width:130px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: 	#2e5073;
+    color: whitesmoke;
+    
+
+}
+#ins_span{
+position: absolute;
+background-color: white;
+margin-top: 55px;
+opacity:0.85;
+margin-left: 200px;
+font-size: 16px;
+width:600px;
+cursor: pointer;
+z-index: 1;
+text-align: justify;
+padding: 10px;
+display: none;
+}
+#ins:hover + #ins_span{
+    display: inline-block;
+}
+

@@ -172,3 +172,4 @@ const imgs = Array.from(document.querySelectorAll('.scale'));
                 
             }
         });
+     
