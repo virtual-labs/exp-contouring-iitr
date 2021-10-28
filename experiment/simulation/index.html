@@ -1,24 +1,31 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=2">
-    <script src="js/jquery/jquery.js"></script>
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/jquery/jquery-3.4.1.min.js"></script>
-    <script src="js/jquery/jquery-ui.min.js"></script>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+ <link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 <body >
-<h1><center><u>Carry out Contouring in the field</u></center></h1><br>
-<div id="main">
 
+<div id="main">
+ <button id="ins"  >INSTRUCTIONS
+ </button>
+    <span id="ins_span"><b>1.</b> Five arrows are placed in the field each at different contour position.<br><br>
+<b>2.</b>  In the mid, the plane table is set up on the tripod stand & along with reference point a placed on the paper.<br><br>
+<b>3.</b>  Plane alidade is also placed on the table which is used to draw radial lines.<br><br>
+<b>4.</b>  Click on each arrow placed or marked in the field.<br><br>
+<b>5.</b>  On each click arrow will be replaced by staff or scale.<br><br>
+<b>6.</b>  After this, click on each staff accrodingly.<br><br>
+<b>7.</b>  On each click on the staff, radial lines are drawn from reference point <b>a</b>.<br><br>
+<b>8.</b>  After this, <b>Result Button</b> will appear.<br><br>
+<b>9.</b>  Click on the <b>Result Button</b> to proceed further.<br><br>
+<b>10.</b>  Observations will be displayed in the graphical form by clicking on each contour button.<br><br></span>
 <div id="ar1"><img src="images\arrow1.png" id="field-div1" onclick="show_hide1()"></div><div id="image1" onclick="draw1()"><img id="scale1" class="scale" src="images\s1.jpg" ></div>
 <div id="ar2"><img src="images\arrow2.png" id="field-div2" onclick="show_hide2()"></div><div id="image2" onclick="draw2()"><img id="scale2" class="scale" src="images\s2.jpg" ></div>
 <div id="ar3"><img src="images\arrow3.png" id="field-div3" onclick="show_hide3()"></div><div id="image3" onclick="draw3()"><img id="scale3" class="scale" src="images\s3.jpg" ></div>
 <div id="ar4"><img src="images\arrow4.png" id="field-div4" onclick="show_hide4()"></div><div id="image4" onclick="draw4()"><img id="scale4" class="scale" src="images\s4.jpg" ></div>
 <div id="ar5"><img src="images\arrow5.png" id="field-div5" onclick="show_hide5()"></div><div id="image5" onclick="draw5()"><img id="scale5" class="scale" src="images\s5.jpg" ></div>
-
+<div id="ar6"><img src="images\arrow6.png" id="field-div6" onclick="show_hide6()"></div><div id="image6" onclick="draw6()"><img id="scale6" class="scale" src="images\s6.jpg" ></div>
 <img id="reset" src="images\l_arrow.png" onclick="Reset()">
 <a href="2.html"><img id="result" src="images\r_arrow.png" onclick="next()"></a>
 <div id="sheet">
@@ -28,17 +35,16 @@
 <img id="lineobj3img" src="images\line3.png">
 <img id="lineobj4img" src="images\line4.png">
 <img id="lineobj5img" src="images\line5.png">
-
+<img id="lineobj6img" src="images\line6.png">
+<img id="refdot" src="images\refdot.png" alt="refdot">
 <img id="refimg" src="images\ref1.png" alt="ref point">
-<img id="drawobjimg" src="images\drawobj.png" class="drawobjimg">
+<img id="drawobjimg" src="images\drawobj.PNG" class="drawobjimg">
 </div>
 <img id="tripodimg" src="images\tri.png" class="tripodimg" >
+<img id="tripodnextimg" src="images\trinext.png" class="tripodnextimg" >
 </div>
-
-<!--<center><button id="reset" onclick="Reset()">Reset</button></center>
-<center><a href="2.html"><button id="next" onclick="next()">Result</button></a></center> -->
 <script src="js/main.js"></script>
-<script src="js/jquery/jquery.js"></script>
+
 
 </body>
 </html>

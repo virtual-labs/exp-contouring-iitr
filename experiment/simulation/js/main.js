@@ -11,15 +11,13 @@ function show_hide1()
     {
         document.getElementById("field-div1").style.display="none";
         document.getElementById("image1").style.display="inline";
-        
-     }
-        
-       else
-        {
-            document.getElementById("field-div1").src = "images/arrow1.jpg";
-            document.getElementById("image1").style.display="inline";
+    }
+    else
+    {
+        document.getElementById("field-div1").src = "images/arrow1.jpg";
+        document.getElementById("image1").style.display="inline";
            
-        }
+    }
         
     
 }
@@ -28,18 +26,14 @@ function show_hide2()
     if (document.getElementById("field-div2").src = "images/arrow2.png") 
     {
         
+        document.getElementById("image1").style.display="none";
         document.getElementById("field-div2").style.display="none";
         document.getElementById("image2").style.display="inline";
-            
-        }
-
-         
-    
-       
-        else
-        {
+    }
+    else
+    {
             document.getElementById("field-div2").src = "images/arrow2.png";
-        }
+    }
         
     
 }
@@ -48,48 +42,40 @@ function show_hide3()
     if (document.getElementById("field-div3").src = "images/arrow3.png") 
     {
         
+        document.getElementById("image2").style.display="none";
         document.getElementById("field-div3").style.display="none";
         document.getElementById("image3").style.display="inline";
-           
-            
-        
-
-     
     }
        
         else
         {
             document.getElementById("field-div3").src = "images/arrow3.png";
         }
-        
-    
+
 }
 function show_hide4()
 {
     if (document.getElementById("field-div4").src = "images/arrow4.png") 
     {
         
+        document.getElementById("image3").style.display="none";
         document.getElementById("field-div4").style.display="none";
         document.getElementById("image4").style.display="inline";
             
-        
-
-         
     }
-       
-        else
-        {
+    else
+    {
             document.getElementById("field-div4").src = "images/arrow4.png";
            
-        }
-        
-    
+    }
+           
 }
 function show_hide5()
 {
-    if (document.getElementById("field-div5").src = "images/arrow4.png") 
+    if (document.getElementById("field-div5").src = "images/arrow5.png") 
     {
         
+        document.getElementById("image4").style.display="none";
         document.getElementById("field-div5").style.display="none";
         document.getElementById("image5").style.display="inline";
             
@@ -97,129 +83,73 @@ function show_hide5()
        
     else
     {
-            document.getElementById("field-div5").src = "images/arrow4.png";
+        document.getElementById("field-div5").src = "images/arrow5.png";
+    }
+        
+}
+function show_hide6()
+{
+    if (document.getElementById("field-div6").src = "images/arrow6.png") 
+    {
+        
+        document.getElementById("image5").style.display="none";
+        document.getElementById("field-div6").style.display="none";
+        document.getElementById("image6").style.display="inline";
+            
+    }
+       
+    else
+    {
+        document.getElementById("field-div6").src = "images/arrow6.png";
     }
         
     
 }
 function draw1()
 {
-    document.getElementById("image1").style.display="none";
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-95px,-55px)scale(1)rotateY(150deg)"; }, 400);
+    
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-65px,-50px)scale(1)rotateY(150deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj1img").style.display="inline"}, 400);
-   
-    /*document.getElementById("drawobjimg").animate([
-        // keyframes
-        { transform: 'translate(0px,0px)' },
-        { transform: 'translate(-95px,-55px)scale(1)rotateY(150deg)' },
-        { transform: 'translate(0px,0px)' }
-      ], {
-        // timing options
-        duration: 1000
-        
-      });
-    setInterval(() => {document.getElementById("lineobj1img").style.display="inline"
-        
-    }, 700);*/
-    
-
-        
-
 }
 
 function draw2()
 {
-    document.getElementById("image2").style.display="none";
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-80px,-50px)scale(1.5)rotateY(120deg)"; }, 400);
+    
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-55px,-95px)scale(3)rotateY(100deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj2img").style.display="inline"}, 400);
-   /* document.getElementById("drawobjimg").animate([
-        // keyframes
-        { transform: 'translate(0px,0px)' },
-        { transform: 'translate(-80px,-50px)scale(1.5)rotateY(120deg)' },
-        { transform: 'translate(0px,0px)' }
-      ], {
-        // timing options
-        duration: 1000
-       
-      });
-    setInterval(() => {document.getElementById("lineobj2img").style.display="inline"
-        
-    }, 500);*/
 }
 
 function draw3()
 {
-    document.getElementById("image3").style.display="none";
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-65px,-55px)scale(2)rotateY(85deg)"; }, 400);
+    
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-40px,-90px)scale(3)rotateY(88deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj3img").style.display="inline"}, 400);
-   /* document.getElementById("drawobjimg").animate([
-        // keyframes
-        { transform: 'translate(0px,0px)' },
-        { transform: 'translate(-55px,-50px)scale(1.5)rotateY(85deg)' },
-        { transform: 'translate(0px,0px)' }
-      ], {
-        // timing options
-        duration: 1000
-     
-      });
-    setInterval(() => {document.getElementById("lineobj3img").style.display="inline"
-        
-    }, 500);*/
-    
-    
 }
 
 function draw4()
 {
-    document.getElementById("image4").style.display="none";
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-55px,-50px)scale(1)rotateY(30deg)"; }, 400);
+    
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-35px,-65px)scale(2)rotateY(80deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj4img").style.display="inline"}, 400);
-    /*document.getElementById("drawobjimg").animate([
-        // keyframes
-      
-        { transform: 'translate(0px,0px)' },
-        { transform: 'translate(-55px,-50px)'},
-        {transform:'rotateY(30deg)' },
-        { transform: 'translate(0px,0px)' }
-      ], {
-        // timing options
-        duration: 1000
-        
-      });
-    setInterval(() => {document.getElementById("lineobj4img").style.display="inline"
-        
-    }, 300);*/
-   
- 
-    
 }
 
 function draw5()
 {
-    document.getElementById("image5").style.display="none";
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-40px,-55px)scale(1)rotateY(390deg)"; }, 400);
+    
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-30px,-60px)scale(2)rotateY(70deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj5img").style.display="inline"}, 400);
-    /*document.getElementById("drawobjimg").animate([
-        // keyframes
-      
-        { transform: 'translate(0px,0px)' },
-        { transform: 'translate(-40px,-55px)'},
-        {transform:'rotateY(390deg)' },
-        { transform: 'translate(0px,0px)' }
-      ], {
-        // timing options
-        duration: 1000
-     
-      });
-    setInterval(() => {document.getElementById("lineobj5img").style.display="inline"}, 300);*/
- 
-  
+}
+function draw6()
+{
     
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-20px,-55px)scale(1)rotateY(390deg)"; }, 400);
+    setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
+    setInterval(() => {document.getElementById("lineobj6img").style.display="inline"}, 400);
 }
 
 const imgs = Array.from(document.querySelectorAll('.scale'));
@@ -242,3 +172,4 @@ const imgs = Array.from(document.querySelectorAll('.scale'));
                 
             }
         });
+     
