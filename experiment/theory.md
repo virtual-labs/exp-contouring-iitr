@@ -10,7 +10,7 @@ This experiment is useful to carry out contouring in the field.<br><br>
 ### Equipments Used<br>
 1) Level or Theodolite.<br>
 2) Staff.<br>
-3) Clinometer and Clinopole.<br>
+3) Clinometer and Clinopole.<br><br>
 
 ### Dos and Don'ts<br>
 
